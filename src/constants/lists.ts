@@ -14,7 +14,8 @@ const CMC_STABLECOIN = 'stablecoin.cmc.eth'
 const KLEROS_LIST = 't2crtokens.eth'
 const GEMINI_LIST = 'https://www.gemini.com/uniswap/manifest.json'
 const BA_LIST = 'https://raw.githubusercontent.com/The-Blockchain-Association/sec-notice-list/master/ba-sec-list.json'
-const TONG_LIST = 'https://raw.githubusercontent.com/tongyuhu/default-token-list/master/build/uniswap-default.tokenlist.json'
+const TONG_LIST =
+  'https://raw.githubusercontent.com/tongyuhu/default-token-list/master/build/uniswap-default.tokenlist.json'
 export const UNSUPPORTED_LIST_URLS: string[] = [BA_LIST]
 
 // lower index == higher priority for token import
